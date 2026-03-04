@@ -1,0 +1,6 @@
+.btn {
+    background-color: var(--accent);
+    padding: 12px;
+    color: var(--white);
+    border-radius: 8px;
+}
