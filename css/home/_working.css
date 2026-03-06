@@ -1,0 +1,45 @@
+.working__inner {
+    display: flex;
+    gap: 80px;
+    padding: 80px;
+}
+
+.working__content {
+    display: grid;
+    align-content: center;
+    gap: 24px;
+}
+
+.working__title {
+    margin: 0px;
+}
+
+.working__text {
+    margin: 0px;
+}
+
+.working__link {
+    display: flex;
+    gap: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: var(--accent);
+    transition: .2s;
+
+    &:hover {
+        color: var(--accent-hover);
+    }
+}
+
+
+
+.working__inner--reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.working__img-rev {
+    padding-right: 70px;
+}
