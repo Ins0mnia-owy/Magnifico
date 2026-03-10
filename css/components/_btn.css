@@ -1,6 +1,7 @@
 .btn {
     display: flex;
     max-width: max-content;
+    min-width: max-content;
     align-content: center;
     gap: 16px;
     background-color: var(--accent);

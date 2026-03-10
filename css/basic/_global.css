@@ -16,7 +16,11 @@ h2 {
 }
 
 h3 {
-
+    font-family: var(--roboto);
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 110%;
+    color: var(--blue-gray-900);
 }
 
 p {
@@ -27,14 +31,8 @@ p {
     color: var(--blue-gray-600);
 }
 
-.logo {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 110%;
-    margin: 0px;
-}
 
-a {
+a, button {
     cursor: pointer;
     font-family: var(--roboto);
 }

@@ -27,3 +27,11 @@
         color: var(--blue-gray-600);
     }
 }
+
+.header__logo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 110%;
+    margin: 0px;
+    color: var(--blue-gray-900);
+}

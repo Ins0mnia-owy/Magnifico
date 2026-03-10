@@ -1,0 +1,27 @@
+.improve__inner {
+    background-image: url('/img/Container.png');
+    padding: 80px 80px 80px 680px;
+    margin: 0px 80px;
+    border-radius: 30px;
+}
+
+.improve__content {
+    display: grid;
+    row-gap: 24px;
+}
+
+.improve__title, .improve__text, .improve__link {
+    color: var(--white);
+}
+
+.improve__link {
+    max-width: max-content;
+    padding: 12px 0px 12px 0px;
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+}

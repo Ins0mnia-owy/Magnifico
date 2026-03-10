@@ -1,0 +1,24 @@
+
+.footer__inner {
+    margin: 80px 80px;
+}
+
+.footer__content {
+    display: flex;
+    gap: 8px;
+}
+
+.footer__logo {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    margin: 0px;
+    color: var(--blue-gray-900);
+}
+
+.footer__company {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--blue-gray-600);
+}

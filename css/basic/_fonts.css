@@ -1,9 +1,6 @@
-roboto reg, med, bold, extrabold, open sans reg
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../../Roboto-Medium.woff2') format('woff2'),
-        url('../../Roboto-Medium.woff') format('woff');
     src: url('/fonts/Roboto-Medium.woff2') format('woff2'),
         url('/fonts/Roboto-Medium.woff') format('woff');
     font-weight: 500;
@@ -13,8 +10,6 @@ roboto reg, med, bold, extrabold, open sans reg
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../../Roboto-ExtraBold.woff2') format('woff2'),
-        url('../../Roboto-ExtraBold.woff') format('woff');
     src: url('/fonts/Roboto-ExtraBold.woff2') format('woff2'),
         url('/fonts/Roboto-ExtraBold.woff') format('woff');
     font-weight: bold;
@@ -24,8 +19,6 @@ roboto reg, med, bold, extrabold, open sans reg
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../../Roboto-Bold.woff2') format('woff2'),
-        url('../../Roboto-Bold.woff') format('woff');
     src: url('/fonts/Roboto-Bold.woff2') format('woff2'),
         url('/fonts/Roboto-Bold.woff') format('woff');
     font-weight: bold;
@@ -35,8 +28,6 @@ roboto reg, med, bold, extrabold, open sans reg
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../../Roboto-Regular.woff2') format('woff2'),
-        url('../../Roboto-Regular.woff') format('woff');
     src: url('/fonts/Roboto-Regular.woff2') format('woff2'),
         url('/fonts/Roboto-Regular.woff') format('woff');
     font-weight: normal;
@@ -46,8 +37,6 @@ roboto reg, med, bold, extrabold, open sans reg
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('../../OpenSans-Regular.woff2') format('woff2'),
-        url('../../OpenSans-Regular.woff') format('woff');
     src: url('/fonts/OpenSans-Regular.woff2') format('woff2'),
         url('/fonts/OpenSans-Regular.woff') format('woff');
     font-weight: normal;
