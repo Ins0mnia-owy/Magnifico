@@ -56,3 +56,32 @@ input {
     border: transparent;
     
 }
+
+
+@media (max-width: 393px) {
+
+    .main__inner {
+        margin: 0px;
+        padding: 16px;
+        display: block;
+    }
+
+    .main__title {
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .main__content {
+        max-width: 100%;
+        
+    }
+
+    .main__form {
+        max-width: 177px;
+    }
+
+    .main__sparks {
+        display: none;
+    }
+
+}

@@ -35,3 +35,27 @@
     margin: 0px;
     color: var(--blue-gray-900);
 }
+
+.header__mob-btn {
+    display: none;
+}
+
+@media (max-width: 393px) {
+
+    .header__btn, 
+    .header__links
+        {
+        display: none;
+    }
+
+
+    .header__inner {
+        padding: 16px;
+        width: 100%;
+    }
+
+    .header__mob-btn {
+        display: block;
+    }
+
+}
