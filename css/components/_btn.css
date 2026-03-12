@@ -1,7 +1,6 @@
 .btn {
     display: flex;
     max-width: max-content;
-    min-width: max-content;
     align-content: center;
     gap: 16px;
     background-color: var(--accent);
@@ -13,11 +12,23 @@
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.03em;
-    transition: background-color .2s;
+    box-sizing: border-box;
+    transition: background-color .2s, box-shadow .2s, transform .2s;
 
-    &:hover {
+    @media (min-width: 394px) {
+        &:hover {
         background-color: var(--accent-hover);
+        box-shadow: 4px 5px 5px 1px var(--shadow);
+        transform: scale(1.01);
     }
+    }
+
 
     
 }
+
+ @media (max-width: 393px) {
+        .btn {
+            max-width: 50%;
+        }
+    }

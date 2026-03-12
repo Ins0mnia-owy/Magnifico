@@ -34,18 +34,18 @@
                     <path d="M15.586 10.657L11.636 6.70701C11.4538 6.51841 11.353 6.26581 11.3553 6.00361C11.3576 5.74141 11.4628 5.4906 11.6482 5.30519C11.8336 5.11978 12.0844 5.01461 12.3466 5.01234C12.6088 5.01006 12.8614 5.11085 13.05 5.29301L18.707 10.95C18.8002 11.0427 18.8741 11.1528 18.9246 11.2742C18.9751 11.3955 19.001 11.5256 19.001 11.657C19.001 11.7884 18.9751 11.9185 18.9246 12.0399C18.8741 12.1612 18.8002 12.2714 18.707 12.364L13.05 18.021C12.9578 18.1165 12.8474 18.1927 12.7254 18.2451C12.6034 18.2975 12.4722 18.3251 12.3394 18.3263C12.2066 18.3274 12.0749 18.3021 11.952 18.2518C11.8291 18.2016 11.7175 18.1273 11.6236 18.0334C11.5297 17.9395 11.4555 17.8279 11.4052 17.705C11.3549 17.5821 11.3296 17.4504 11.3307 17.3176C11.3319 17.1848 11.3595 17.0536 11.4119 16.9316C11.4643 16.8096 11.5405 16.6993 11.636 16.607L15.586 12.657H6C5.73478 12.657 5.48043 12.5517 5.29289 12.3641C5.10536 12.1766 5 11.9222 5 11.657C5 11.3918 5.10536 11.1374 5.29289 10.9499C5.48043 10.7624 5.73478 10.657 6 10.657H15.586Z" fill="white" />
                 </svg>
             </a>
-            <button class="header__mob-btn">
+            <nav class="header__mob-btn">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M3 7.5C3 7.08579 3.33579 6.75 3.75 6.75H20.25C20.6642 6.75 21 7.08579 21 7.5C21 7.91421 20.6642 8.25 20.25 8.25H3.75C3.33579 8.25 3 7.91421 3 7.5Z" fill="#0F172A" />
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M3 12C3 11.5858 3.33579 11.25 3.75 11.25H20.25C20.6642 11.25 21 11.5858 21 12C21 12.4142 20.6642 12.75 20.25 12.75H3.75C3.33579 12.75 3 12.4142 3 12Z" fill="#0F172A" />
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M3 16.5C3 16.0858 3.33579 15.75 3.75 15.75H20.25C20.6642 15.75 21 16.0858 21 16.5C21 16.9142 20.6642 17.25 20.25 17.25H3.75C3.33579 17.25 3 16.9142 3 16.5Z" fill="#0F172A" />
                 </svg>
-            </button>
+            </nav>
         </div>
     </div>
  </header>
 
- <section class="main">
+ <main>
     <div class="container">
         <div class="main__inner">
             <div class="main__content">
@@ -57,10 +57,10 @@
                 </p>
                 <div class="main__bottom">
                     <div class="main__form">
-                        <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="main__formicon" width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M3.598 2L9.345 7.12C9.52813 7.28306 9.76479 7.37316 10.01 7.37316C10.2552 7.37316 10.4919 7.28306 10.675 7.12L16.423 2H3.598ZM18 3.273L12.006 8.614C11.4565 9.10374 10.7461 9.37436 10.01 9.37436C9.27392 9.37436 8.56352 9.10374 8.014 8.614L2 3.254V12H18V3.273ZM2 0H18C18.5304 0 19.0391 0.210714 19.4142 0.585786C19.7893 0.960859 20 1.46957 20 2V12C20 12.5304 19.7893 13.0391 19.4142 13.4142C19.0391 13.7893 18.5304 14 18 14H2C1.46957 14 0.960859 13.7893 0.585786 13.4142C0.210714 13.0391 0 12.5304 0 12V2C0 1.46957 0.210714 0.960859 0.585786 0.585786C0.960859 0.210714 1.46957 0 2 0V0Z" fill="#94A3B8" />
                         </svg>
-                        <input type="email" placeholder="Enter work email">
+                        <input type="email" id="input1" placeholder="Enter work email">
                     </div>
                     <button class="btn" type="submit">
                         Sign Up Free
@@ -74,12 +74,12 @@
             <img class="main__sparks" src="/img/sparks.svg" draggable="false">
         </div>
     </div>
- </section>
+ </main>
 
  <section class="working">
     <div class="container">
         <div class="working__inner">
-            <img src="/img/Left.png" draggable="false">
+            <img class="working__img" src="/img/Left.png" draggable="false">
             <div class="working__content">
                 <h3 class="working__title">
                     Enjoy your time working
@@ -98,7 +98,7 @@
     </div>
     <div class="container">
         <div class="working__inner working__inner--reverse">
-            <img src="/img/Apps.png" class="working__img-rev" draggable="false">
+            <img class="working__img working__img-rev" src="/img/Apps.png" draggable="false">
             <div class="working__content">
                 <h3 class="working__title">
                     Get all the tools your team needs
@@ -127,7 +127,7 @@
                 <p class="improve__text">
                     Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.
                 </p>
-                <a class="improve__link" target="_blank">
+                <a class="improve__link" href="https://github.com/" target="_blank">
                     Improve workflow
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M15.586 10.657L11.636 6.70704C11.4538 6.51844 11.353 6.26584 11.3553 6.00364C11.3576 5.74144 11.4628 5.49063 11.6482 5.30522C11.8336 5.11981 12.0844 5.01465 12.3466 5.01237C12.6088 5.01009 12.8614 5.11088 13.05 5.29304L18.707 10.95C18.8002 11.0427 18.8741 11.1529 18.9246 11.2742C18.9751 11.3955 19.001 11.5256 19.001 11.657C19.001 11.7884 18.9751 11.9186 18.9246 12.0399C18.8741 12.1612 18.8002 12.2714 18.707 12.364L13.05 18.021C12.9578 18.1166 12.8474 18.1927 12.7254 18.2451C12.6034 18.2976 12.4722 18.3251 12.3394 18.3263C12.2066 18.3274 12.0749 18.3021 11.952 18.2519C11.8291 18.2016 11.7175 18.1273 11.6236 18.0334C11.5297 17.9395 11.4555 17.8279 11.4052 17.705C11.3549 17.5821 11.3296 17.4504 11.3307 17.3176C11.3319 17.1849 11.3595 17.0536 11.4119 16.9316C11.4643 16.8096 11.5405 16.6993 11.636 16.607L15.586 12.657H6C5.73478 12.657 5.48043 12.5517 5.29289 12.3641C5.10536 12.1766 5 11.9223 5 11.657C5 11.3918 5.10536 11.1375 5.29289 10.9499C5.48043 10.7624 5.73478 10.657 6 10.657H15.586Z" fill="white" />

@@ -3,8 +3,9 @@
 	--blue-gray-600: #475569;
 	--blue-gray-200: #E2E8F0;
 	--accent: #2563EB;
-	--accent-hover: #3575ff;
+	--accent-hover: #2e70ff;
 	--white: #fff;
+	--shadow: rgba(0, 0, 255, .2);
 	--roboto: 'Roboto';
 	--open-sans: 'Open Sans';
 }

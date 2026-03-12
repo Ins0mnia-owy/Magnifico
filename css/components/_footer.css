@@ -34,9 +34,22 @@
 
 .footer__link {
     color: var(--blue-gray-600);
-    transition: color .2s;
-    
+    transition: color .2s, transform .2s;
+
     &:hover {
         color: var(--accent);
+        transform: scale(1.1);
     }
+}
+
+
+@media (max-width: 393px) {
+
+    .footer__inner {
+        display: block;
+        margin: 0px;
+        padding: 16px;
+        width: 100%;
+    }
+
 }
