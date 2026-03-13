@@ -59,13 +59,14 @@
 
     .working__inner {
         display: flexbox;
+        gap: 0px;
         margin: 0px;
         padding: 16px;
         width: 100%;
     }
 
     .working__img {
-        display: none;
+        
     }
 
     .working__title {

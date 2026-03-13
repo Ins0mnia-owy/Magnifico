@@ -47,3 +47,12 @@ a, button {
     }
 
 }
+
+h3, h2, p {
+    cursor: default;
+}
+
+
+*::selection {
+    background-color: rgba(104, 182, 255, 0.452);
+}

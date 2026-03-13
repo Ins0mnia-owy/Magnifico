@@ -114,3 +114,21 @@
 
 
 }
+
+@media (max-width: 1455px) {
+
+    .main__img {
+        width: 550px;
+    }
+
+    .main__title {
+        font-size: 65px;
+    }
+}
+
+@media (max-width: 1348px) {
+
+    .main__bottom {
+      
+    }
+}
