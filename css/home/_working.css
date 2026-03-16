@@ -1,7 +1,10 @@
 .working__inner {
     display: flex;
     gap: 80px;
-    padding: 80px 80px 158px;
+}
+
+.working__inner--gap {
+    margin-top: 80px;
 }
 
 .working__content {

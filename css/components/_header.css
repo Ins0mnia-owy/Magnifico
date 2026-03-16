@@ -1,5 +1,4 @@
 .header__inner {
-    max-width: 1280px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -41,31 +40,4 @@
 
 .header__mob-btn {
     display: none;
-}
-
-@media (max-width: 393px) {
-
-    .header__btn, 
-    .header__links
-        {
-        display: none;
-    }
-
-
-    .header__inner {
-        padding: 16px;
-        width: 100%;
-    }
-
-    .header__mob-btn {
-        display: block;
-    }
-
-}
-
-@media (max-width: 1455px) {
-
-    .header__inner {
-        padding: 24px 50px;
-    }
 }
