@@ -2,6 +2,7 @@
     background-image: url('/img/Container.png');
     padding: 80px 80px 80px 680px;
     border-radius: 30px;
+    height: 496px;
 }
 
 .improve__content {
@@ -28,16 +29,40 @@
     &:hover {
         transform: scale(1.1);
     }
+    
 }
 
+@media (max-width: 1300px) {
+    .improve__inner {
+        padding-left: 500px;
+    }
+
+    .improve__title {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .improve__inner {
+        padding-left: 300px;
+    }
 
 @media (max-width: 393px) {
+    .improve__title {
+        font-size: 45px;
+    }
+}
 
+@media (max-width: 992px) {
     .improve__inner {
         display: block;
         margin: 0px;
         padding: 16px;
         width: 100%;
+        padding-left: 80px;
     }
 
+}    .improve__title {
+        font-size: 44px;
+    }
 }
