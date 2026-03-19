@@ -43,13 +43,11 @@
 }
 
 
-@media (max-width: 393px) {
-
+@media (max-width: 768px) {
     .footer__inner {
-        display: block;
-        margin: 0px;
-        padding: 16px;
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 50px 0px;
     }
-
 }

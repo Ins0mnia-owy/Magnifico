@@ -47,7 +47,6 @@
 }
 
 .main__form {
-    width: 350px;
     max-width: 400px;
     max-height: 48px;
     display: flex;
@@ -55,27 +54,22 @@
     gap: 10px;
     border: 1px solid #CBD5E1;
     border-radius: 8px;
-    padding: 13px 16px;
     padding: 0px 16px;
     box-sizing: border-box;
 }
 
 .main__formicon {
-    max-height: max-content;
     height: 24px;
     width: 24px;
 }
 
 #input1 {
-    max-width: 100%;
     width: 60%;
     font-family: var(--roboto);
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     color: var(--blue-gray-600);
-    border: transparent;
-    box-sizing: border-box;
     
 }
 
@@ -127,7 +121,44 @@
 }
 
 @media (max-width: 768px) {
-    main__inner {
-        
+    .main__sparks {
+        display: none;
+    }
+
+    .main__inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__img {
+        max-width: max-content;
+    }
+
+    .main__content {
+        align-content: center;
+        text-align: center;
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .main__bottom {
+        max-width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 610px) {
+    .main__inner {
+        padding: 60px 20px
+    }
+}
+
+@media (max-width: 468px) {
+    .main__content {
+        text-align: left;
+    }
+    .main__bottom {
+        max-width: 100%;
+        margin: 0px;
     }
 }

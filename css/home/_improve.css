@@ -47,7 +47,6 @@
         padding-left: 300px;
     }
 
-@media (max-width: 393px) {
     .improve__title {
         font-size: 45px;
     }
@@ -55,14 +54,29 @@
 
 @media (max-width: 992px) {
     .improve__inner {
-        display: block;
-        margin: 0px;
-        padding: 16px;
-        width: 100%;
         padding-left: 80px;
     }
 
-}    .improve__title {
+    .improve__title {
         font-size: 44px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .improve__content {
+        align-content: center;
+        text-align: center;
+    }
+    .improve__link {
+        margin: auto;
+    }
+}
+
+@media (max-width: 610px) {
+    .improve__inner {
+        border-radius: 0px;
+        padding: 60px;
+        padding-top: 70px;
     }
 }
