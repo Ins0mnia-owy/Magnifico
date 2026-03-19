@@ -78,5 +78,21 @@
         border-radius: 0px;
         padding: 60px;
         padding-top: 70px;
+        background-image: url('/img/Container-smoll.png');
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 468px) {
+    .improve__inner {
+        padding: 48px 24px 48px;
+        height: fit-content;
+    }
+    
+    .improve__content {
+        text-align: left;
+    }
+    .improve__link {
+        margin: 0px;
     }
 }

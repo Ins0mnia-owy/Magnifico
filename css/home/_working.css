@@ -116,7 +116,14 @@
 }
 
 @media (max-width: 610px) {
-    .working__img {
-        
+    
+}
+
+@media (max-width: 468px) {
+    .working__content {
+        text-align: left;
+    }
+    .working__link {
+        margin: 0px;
     }
 }
