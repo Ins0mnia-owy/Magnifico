@@ -117,6 +117,9 @@
 
 @media (max-width: 610px) {
     
+    .working__inner {
+        gap: 55px;
+    }
 }
 
 @media (max-width: 468px) {
@@ -125,5 +128,9 @@
     }
     .working__link {
         margin: 0px;
+    }
+
+    .working__inner {
+        gap: 48px;
     }
 }

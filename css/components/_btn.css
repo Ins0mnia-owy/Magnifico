@@ -1,6 +1,7 @@
 .btn {
     display: flex;
     width: max-content;
+    min-width: 177px;
     max-height: 48px;
     align-content: center;
     gap: 16px;
