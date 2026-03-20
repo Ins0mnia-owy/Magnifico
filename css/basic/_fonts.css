@@ -3,6 +3,8 @@
     font-family: 'Roboto';
     src: url('/fonts/Roboto-Medium.woff2') format('woff2'),
         url('/fonts/Roboto-Medium.woff') format('woff');
+    src: url('fonts/Roboto-Medium.woff2') format('woff2'),
+        url('fonts/Roboto-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -12,6 +14,8 @@
     font-family: 'Roboto';
     src: url('/fonts/Roboto-ExtraBold.woff2') format('woff2'),
         url('/fonts/Roboto-ExtraBold.woff') format('woff');
+    src: url('fonts/Roboto-ExtraBold.woff2') format('woff2'),
+        url('fonts/Roboto-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -21,6 +25,8 @@
     font-family: 'Roboto';
     src: url('/fonts/Roboto-Bold.woff2') format('woff2'),
         url('/fonts/Roboto-Bold.woff') format('woff');
+    src: url('fonts/Roboto-Bold.woff2') format('woff2'),
+        url('fonts/Roboto-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -30,6 +36,8 @@
     font-family: 'Roboto';
     src: url('/fonts/Roboto-Regular.woff2') format('woff2'),
         url('/fonts/Roboto-Regular.woff') format('woff');
+    src: url('fonts/Roboto-Regular.woff2') format('woff2'),
+        url('fonts/Roboto-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -39,6 +47,8 @@
     font-family: 'Open Sans';
     src: url('/fonts/OpenSans-Regular.woff2') format('woff2'),
         url('/fonts/OpenSans-Regular.woff') format('woff');
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('fonts/OpenSans-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

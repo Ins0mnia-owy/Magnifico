@@ -49,7 +49,6 @@
 .main__form {
     max-width: 400px;
     width: 100%;
-    max-height: 48px;
     height: 48px;
     display: flex;
     align-items: center;
@@ -153,7 +152,6 @@
     }
 
     .main__bottom {
-        max-width: 80%;
         max-width: 100%;
         margin: auto;
         display: flex;
@@ -178,7 +176,6 @@
     }
     .main__bottom {
         max-width: 100%;
-        margin: 0px;
         
     }
 }
